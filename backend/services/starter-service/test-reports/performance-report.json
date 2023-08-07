@@ -1,0 +1,127 @@
+[
+  {
+    "duration": 60,
+    "fullName": "/api/roles GET /roles When asked for existing roles, Then should retrieve and receive 200 response along with existing fields",
+    "status": "passed"
+  },
+  {
+    "duration": 6,
+    "fullName": "/api/roles When asked for existing roles, Then should retrieve them and receive 200 response ",
+    "status": "failed"
+  },
+  {
+    "duration": 6,
+    "fullName": "When asked for one specific role by id, Then should retrieve it and receive 200 response",
+    "status": "failed"
+  },
+  {
+    "duration": 3,
+    "fullName": "When asked for a non-existent role by id, Then should retrieve error and receive 404 response",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When asked for a role by non-valid number id, Then should retrieve error and receive 400 response",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When role retrieval fails, then it should return status 404",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When asked for a role by string instead of number as id, Then should retrieve error and receive 400 response",
+    "status": "passed"
+  },
+  {
+    "duration": 5,
+    "fullName": "When error is thrown in get all roles, Then should pass the error to the next function",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When error is thrown in get one role, Then should pass the error to the next function",
+    "status": "passed"
+  },
+  {
+    "duration": 69,
+    "fullName": "/api/roles GET /users When asked for existing users, Then should retrieve and receive 200 response along with existing fields",
+    "status": "passed"
+  },
+  {
+    "duration": 3,
+    "fullName": "/api/roles When asked for existing users, Then should retrieve them and receive 200 response ",
+    "status": "passed"
+  },
+  {
+    "duration": 4,
+    "fullName": "When asked for one specific user by id, Then should retrieve it and receive 200 response",
+    "status": "passed"
+  },
+  {
+    "duration": 3,
+    "fullName": "When asked for a non-existent user by id, Then should retrieve error and receive 404 response",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When asked for a user by non-valid number id, Then should retrieve error and receive 400 response",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When user retrieval fails, then it should return status 404",
+    "status": "passed"
+  },
+  {
+    "duration": 1,
+    "fullName": "When asked for a user by string instead of number as id, Then should retrieve error and receive 400 response",
+    "status": "passed"
+  },
+  {
+    "duration": 3,
+    "fullName": "When error is thrown in get all users, Then should pass the error to the next function",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "When error is thrown in get one user, Then should pass the error to the next function",
+    "status": "passed"
+  },
+  {
+    "duration": 90,
+    "fullName": "/api POST /roles When asked to save a new role, Then it saves it and returns the newly created user",
+    "status": "passed"
+  },
+  {
+    "duration": 6,
+    "fullName": "/api POST /roles When asked to save a new role with already existing username, Then it returns an error with status 409",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "/api POST /roles When role creation fails, then it should return status 404",
+    "status": "passed"
+  },
+  {
+    "duration": 91,
+    "fullName": "/api POST /users When asked to save a new user, Then it saves it and returns the newly created user",
+    "status": "passed"
+  },
+  {
+    "duration": 5,
+    "fullName": "/api POST /users When asked to save a new user with already existing username, Then it returns an error with status 409",
+    "status": "passed"
+  },
+  {
+    "duration": 4,
+    "fullName": "/api POST /users When asked to save a new user with already existing email, Then it returns an error with status 409",
+    "status": "passed"
+  },
+  {
+    "duration": 2,
+    "fullName": "/api POST /users When user creation fails, then it should return status 404",
+    "status": "passed"
+  }
+]
